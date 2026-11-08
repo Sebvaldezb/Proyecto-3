@@ -44,3 +44,33 @@ Los resultados de ambas implementaciones coinciden, comprobando que realizan cor
 
 ## Conclusión
 La implementación en ensamblador mediante el algoritmo SWAR obtuvo un rendimiento considerablemente superior al de la función en C. Se consiguió una mejora de 16.19 veces en el tiempo de ejecución, demostrando cómo el uso de operaciones de bajo nivel y el procesamiento paralelo dentro de un registro pueden optimizar una tarea repetitiva.
+
+## Uso de ChatGPT como herramienta de apoyo
+
+Durante el desarrollo del proyecto se utilizó ChatGPT como herramienta de apoyo para comprender los conceptos involucrados, investigar alternativas de optimización, implementar la solución en ensamblador y verificar los resultados obtenidos. Se utilizaron principalmente los siguientes prompts:
+
+**1. Comprensión del código C**
+
+> Explica paso a paso cómo funciona la función de conteo de bits en C. Describe el uso de AND, el desplazamiento a la derecha y el ciclo que procesa los 64 bits.
+
+**2. Comprensión de ensamblador inline**
+
+> Explícame cómo funciona el ensamblador inline de GCC para x86-64, cómo se declaran los operandos de entrada y salida y qué función tiene la lista clobber.
+
+**3. Investigación de optimización**
+
+> Investiga métodos para optimizar el conteo de bits de un entero de 64 bits. Compara el recorrido bit por bit con el algoritmo SWAR y explica cómo funciona este último.
+
+**4. Implementación de la solución**
+
+> Ayúdame a implementar la función contar_bits_asm utilizando ensamblador inline x86-64 y el algoritmo SWAR. Conserva la función original en C y el main del profesor. Explica cada instrucción utilizada.
+
+**5. Revisión de resultados**
+
+> Analiza los resultados de ejecución de las versiones C y ASM. Comprueba si los totales coinciden, calcula la mejora de rendimiento y explica qué significan los tiempos obtenidos.
+
+**6. Preparación de la exposición**
+
+> Prepara una explicación técnica del algoritmo SWAR, incluyendo el funcionamiento de las máscaras binarias, los registros utilizados, las instrucciones ASM y las restricciones clobber.
+
+**Nota:** ChatGPT se utilizó como herramienta complementaria para facilitar la comprensión, orientar la implementación y apoyar la revisión del proyecto. La solución final fue revisada y ejecutada para comprobar su funcionamiento.
