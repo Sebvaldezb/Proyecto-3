@@ -6,9 +6,9 @@
 
 ## Evidencia en video
 
-Se incluye una grabación del funcionamiento del programa y de las pruebas realizadas.
+Debido al tamaño del archivo, la grabación de la ejecución del programa se encuentra alojada en Google Drive.
 
-[Ver video de la ejecución](Evidencias/Ejecucion.mp4)
+[**Ver video de la ejecución y evidencias del proyecto en Google Drive**](https://drive.google.com/drive/folders/1iXoSPBHs6afZ0dAfcCLFmnwi-cxVgZQ3?usp=sharing)
 
 ## Descripción
 El objetivo del proyecto es comparar el rendimiento de una función escrita en C con una implementación equivalente en ensamblador inline de 64 bits, encargadas de contar la cantidad de bits encendidos (valor 1) en un número entero de 64 bits.
