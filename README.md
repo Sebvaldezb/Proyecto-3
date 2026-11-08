@@ -4,6 +4,12 @@
 **Número de control:** 23490625  
 **Opción:** A – Contador de Bits (Population Count)
 
+## Evidencia en video
+
+Se incluye una grabación del funcionamiento del programa y de las pruebas realizadas.
+
+[Ver video de la ejecución](Evidencias/Ejecucion.mp4)
+
 ## Descripción
 El objetivo del proyecto es comparar el rendimiento de una función escrita en C con una implementación equivalente en ensamblador inline de 64 bits, encargadas de contar la cantidad de bits encendidos (valor 1) en un número entero de 64 bits.
 
